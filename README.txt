@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/GeBuOr/pen/mJJmgx.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/Lewitje/pen/BNNJjo.
 
- A concept of login and sign-in modal
+ A ultra simple login screen on a calm breezy day,
