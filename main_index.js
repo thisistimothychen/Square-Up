@@ -18,7 +18,7 @@ $("#login-button").click(function(event){
 			$('.container').fadeOut(500);
 		}, 600);
 			window.setTimeout(function(){
-			window.location.href = "http://www.google.com/calendar/";
+			window.location.href = "./cal_index.html";
 		}, 500);
 	} else {
 		alert("Do you even lift?");
