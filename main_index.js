@@ -20,6 +20,16 @@ $("#login-button").click(function(event){
 			window.setTimeout(function(){
 			window.location.href = "./cal_index.html";
 		}, 500);
+	} else if(usernameInput === "admin" && passwordInput === "password") {
+		$('form').fadeOut(500);
+		$('.wrapper').addClass('form-success');
+		
+		window.setTimeout(function(){
+			$('.container').fadeOut(500);
+		}, 600);
+			window.setTimeout(function(){
+			window.location.href = "./admin_index.html";
+		}, 500);
 	} else {
 		alert("Do you even lift?");
 	}

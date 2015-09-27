@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UMD CS Events</title>
+    <title>Admin | UMD CS Events</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="./Bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -185,20 +185,27 @@
 
                 <!-- Sidebar -->
                 <div class="well">
-                    <h4>Daemon Dash</h4>
-                    <p>
-                        Location:       CSI 1115</br>
-                        Date:           Saturday, 9/26 - Sunday, 9/27</br>
-                        Restrictions:   2 Computer Science majors required per team.</br>
-                    </p>
-
-
-
-
+                    <h4>New Event Creation</h4>
                     <form class="form">
-                        <button type="attending" id="attending-button">I'm attending</button>
-                    </form>
+                        <div class = "admin-creation-form">
+                            <input type="text" id="event-name" placeholder="Event Name">
+                            <input type="text" id="location" placeholder="Location">
+                            <input type="date" id="date" placeholder="Date">
 
+<!--                            <input type="radio" name="grade" value="freshman" checked> Freshman
+                            </br>
+                            <input type="radio" name="grade" value="sophomore"> Sophomore
+                            </br>
+                            <input type="radio" name="grade" value="junior"> Junior
+                            </br>   
+                            <input type="radio" name="grade" value="senior"> Senior -->
+
+                            <input type="text" id="cancel-threshold" placeholder="Cancel Threshold">
+                            <input type="date" id="cancel-deadline" placeholder="Cancel Deadline">
+                            <button type="submit" id="create-button">Create Event</button>
+                        </div>
+                    </form>
+                </br>
                 </div>
 
             </div>
