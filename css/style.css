@@ -48,7 +48,7 @@ body :-ms-input-placeholder {
   margin-top: 0px;
   overflow: hidden;
 }
-.wrapper.form-success .container h1 {
+.wrapper.form-success .container img {
   -webkit-transform: translateY(85px);
       -ms-transform: translateY(85px);
           transform: translateY(85px);
@@ -60,7 +60,7 @@ body :-ms-input-placeholder {
   height: 400px;
   text-align: center;
 }
-.container h1 {
+.container img {
   font-size: 40px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
