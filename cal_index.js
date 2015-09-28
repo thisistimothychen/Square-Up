@@ -37,7 +37,9 @@ $(document).ready(function(){
 		};
 	});
 	
-	
+	$( "#attending-button" ).click(function() {
+  		$("#attending-button").text("Cancel");
+	});
 
 	/*function clickCalendar(e){
 		e.stopPropagation();
