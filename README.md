@@ -1,5 +1,5 @@
 # Square Up
-Daemon Dash 2015
+Daemon Dash 2015 | Improved CS Undergrad Registration System
 
 Team Victorious Secret's hack at the 2015 Daemon Dash Hackathon. Placed second overall and won the CS Department Undergraduate Event Registration System challenge. See http://daemondash.cs.umd.edu/ for more details about Daemon Dash @ Univ. of MD.
 
